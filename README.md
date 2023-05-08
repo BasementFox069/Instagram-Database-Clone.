@@ -20,6 +20,13 @@ Query 1:
 --  Pick the 5 people who have been on Instagram the longest.
     
     SELECT * FROM users ORDER BY created_at LIMIT 5;
+    
+    '80','Darby_Herzog','2016-05-06 00:14:21'
+    '67','Emilio_Bernier52','2016-05-06 13:04:30'
+    '63','Elenor88','2016-05-08 01:30:41'
+    '95','Nicole71','2016-05-09 17:30:22'
+    '38','Jordyn.Jacobson2','2016-05-14 07:56:26'
+
 
 +----+------------------+---------------------+
 | id | username         | created_at          |
